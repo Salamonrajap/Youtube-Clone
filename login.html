@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inklidox-login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+               <div class="nav-section nav-left">
+                    <a href="#" class ="nav-logo">
+                    <img src="photo.jpg" alt="not load" class="logo-image">
+                    <h2 class="logo-text">INKLIDOXTUBE</h2>
+                    </a>
+                </div>
+        </nav>
+
+    </header>
+
+    <main> 
+   <div class="login-container">
+
+  <form id="form-validate" class="login-form">
+
+    <h2>Login Your Account</h2>
+
+    <div class="login-group">
+      <label for="Email">Email</label>
+      <input type="text" id="Email">
+      <span id="emailError"></span>
+    </div>
+
+    <div class="login-group">
+      <label for="Password">Password</label>
+      <input type="password" id="Password">
+      <span id="passwordError"></span>
+    </div>
+
+    <button type="submit" class="mybutton">Login</button>
+
+  </form>
+
+</div>
+</main>
+
+
+</body>
+<script src="login.js"></script>
+</html>
